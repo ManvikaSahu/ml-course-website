@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Course</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Machine Learning Course</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#modules">Modules</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Welcome to the ML Course</h2>
+        <p>Master the art of machine learning with hands-on projects and expert guidance.</p>
+        <button onclick="enroll()">Enroll Now</button>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About the Course</h2>
+        <p>This course covers the fundamentals of Machine Learning, including supervised and unsupervised learning, deep learning, and model evaluation techniques.</p>
+    </section>
+
+    <section id="modules" class="section">
+        <h2>Course Modules</h2>
+        <div class="module">
+            <h3>Module 1: Introduction to Machine Learning</h3>
+            <p>Learn the basics of machine learning, algorithms, and tools used in the industry.</p>
+        </div>
+        <div class="module">
+            <h3>Module 2: Supervised Learning</h3>
+            <p>Delve into supervised learning techniques including regression, classification, and decision trees.</p>
+        </div>
+        <div class="module">
+            <h3>Module 3: Unsupervised Learning</h3>
+            <p>Explore clustering, association rules, and other unsupervised methods.</p>
+        </div>
+        <div class="module">
+            <h3>Module 4: Deep Learning</h3>
+            <p>Understand neural networks, CNNs, and RNNs with hands-on examples.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="form-response"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Machine Learning Course. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
